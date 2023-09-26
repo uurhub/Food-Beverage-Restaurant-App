@@ -20,7 +20,7 @@ class _SignInPageState extends State<SignInPage> {
               constraints: const BoxConstraints.expand(height: 250),
               child: Image.asset("assets/images/F&B_Logo.png", scale: 1.5,),
             ),
-            const Text("Sign In",style: TextStyle(color: Color(0xffE4E3D3), fontSize: 40)),
+            SizedBox(height: 50,),
             const _emailTextformfield(),
             _passwordTextformfield(),
             const _textbuttons(),
@@ -72,11 +72,9 @@ class _loginButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(onPressed: 
-    (){
-      Navigator.pushNamed(context, "/signuppage");
-    }, 
+    (){}, 
     child: Text(
-      "Sign in",
+      "Log In",
       style: TextStyle(
         color: Color(0xff2F302B),
         fontSize: 25,
@@ -100,7 +98,9 @@ class _textbuttons extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.only(right: 80),
           child: TextButton(
-            onPressed: (){}, child: 
+            onPressed: (){
+              Navigator.pushNamed(context, "/signuppage");
+            }, child: 
           Text("Don't have an account?",style: TextStyle(color: Color(0xffE4E3D3)),))
         ),
       TextButton(onPressed: (){}, child: 

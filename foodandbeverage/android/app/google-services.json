@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "32825746359",
+    "project_id": "food-beverage-app",
+    "storage_bucket": "food-beverage-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32825746359:android:ed4acbb30e6f60d3827e32",
+        "android_client_info": {
+          "package_name": "com.example.foodandbeverage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHxB4pUGs914_TpOhA9JZIzn6I1r5W16s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
